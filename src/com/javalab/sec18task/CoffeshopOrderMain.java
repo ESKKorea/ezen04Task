@@ -4,7 +4,7 @@ package com.javalab.sec18task;
 import java.util.Random;
 import java.util.Scanner;
 
-public class CoffeshopOrder {
+public class CoffeshopOrderMain {
     public static void main(String[] args) {
 
 
