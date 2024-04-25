@@ -6,14 +6,20 @@ public class BubbleSort {
 
         int[] arr = {7, 3, 9, 1};
 
+        // 3 7 1 9 1회차
+
+        // 3 1 7 9 2회차
+
+        // 1 3 7 9 3회차
+
+
         bubbleSort(arr);
 
         System.out.println("버블 정렬된 배열:");
-
         for (int num : arr) {
-
             System.out.print(num + " ");
         }
+
     }
 
 
@@ -22,7 +28,9 @@ public class BubbleSort {
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
+
                     // 인접한 두 요소를 비교하여 정렬
+
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
