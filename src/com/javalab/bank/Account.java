@@ -1,6 +1,6 @@
 package com.javalab.bank;
 
-public class Account {
+public class    Account {
     private String accountId;
     private String accountNumber;
     private double balance;

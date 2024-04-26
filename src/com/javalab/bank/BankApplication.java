@@ -15,7 +15,7 @@ public class BankApplication extends JFrame {
     public BankApplication() {
         // JFrame 설정
         setTitle("은행 계좌 관리 시스템");
-        setSize(400, 300);
+        setSize(800, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
@@ -23,7 +23,7 @@ public class BankApplication extends JFrame {
         manager = new BankManager();
 
         // 입력 패널 생성
-        JPanel inputPanel = new JPanel(new GridLayout(3, 2));
+        JPanel inputPanel = new JPanel(new GridLayout(4, 2));
 
         // 계좌 ID 입력 필드
         inputPanel.add(new JLabel("계좌 ID:"));
